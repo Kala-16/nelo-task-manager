@@ -1,0 +1,31 @@
+/* App.css (for supplemental global styles only; keep Tailwind in index.css) */
+
+/* Use a clean background for your main app area */
+.app-background {
+  @apply min-h-screen bg-gray-50 flex flex-col items-center justify-center;
+}
+
+/* Center card styles for the login box */
+.login-card {
+  @apply bg-white rounded-2xl shadow-xl border px-10 py-12 w-full max-w-md;
+}
+
+/* Heading inside the login card */
+.login-heading {
+  @apply text-4xl font-serif font-bold mb-8 text-gray-900 text-center;
+}
+
+/* Input fields */
+.login-input {
+  @apply w-full border border-gray-400 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500 text-gray-900 bg-white;
+}
+
+/* Button styles */
+.login-button {
+  @apply w-full rounded-full py-3 bg-teal-700 text-white font-bold text-lg hover:bg-teal-800 transition-colors;
+}
+
+/* Footer links */
+.login-link {
+  @apply text-teal-700 underline font-medium;
+}
